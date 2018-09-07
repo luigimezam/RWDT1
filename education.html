@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hoja de Vida</title>
+</head>
+<body>
+	<img src="img/logo.svg" alt="Logo" width="480px">
+	<h1>Hoja de Vida</h1>
+	<h2>Datos Personales</h2>
+	<h3>Luigi Alberto Meza Maldonado</h3>
+	<h3>21 de marzo de 1992, Puente Piedra</h3>
+	<ul>
+		<li><a href="index.html">INICIO</a></li>
+		<li><a href="education.html">EDUCACIÓN</a></li>
+		<li><a href="experiencia.html">EXPERIENCIA</a></li>
+	</ul>
+	<h2>EDUCACIÓN</h2>
+	<table border="1" style="border-collapse:collapse;">
+		<tr>
+			<th>Año</th>
+			<th>Insitución</th>
+			<th>Estudio</th>
+			<th>¿Culminó?</th>
+		</tr>
+		<tr>
+			<td>2013</td>
+			<td>Universidad Jaime Bausate y Meza</td>
+			<td>Periodismo</td>
+			<td>Sí</td>
+		</tr>
+		<tr>
+			<td>2014</td>
+			<td>Escuela de Arte Digital</td>
+			<td>Post Producción y Animación 2D y 3D</td>
+			<td>Sí</td>
+		</tr>
+		<tr>
+			<td>2014</td>
+			<td>Universidad Privada del Norte</td>
+			<td>Ciencias de la Comunicación</td>
+			<td>Cursando</td>
+		</tr>	
+	</table><br>
+	<form autocomplete="off" name="Agregar Estudios" action="#" method="POST">
+		<fieldset>
+			<legend>Agregar Estudios</legend>
+			<p><label for="anio">Año</label>
+			<select name="anio" id="anio">
+				<option value="2018">2018</option>
+				<option value="2018">2017</option>
+				<option value="2018">2016</option>
+				<option value="2018">2015</option>
+				<option value="2018">2014</option>
+				<option value="2018">2013</option>
+				<option value="2018">2012</option>
+				<option value="2018">2011</option>
+				<option value="2018">2010</option>			
+			</select></p>
+			<p><label for="institucion">Institución: </label>
+			<input type="text" name="institucion" id="institucion" required></p>
+			
+			<p><label for="lugar">Lugar: </label>
+			<textarea name="lugar" id="lugar" cols="30" rows="1" required></textarea></p>
+			<input type="submit">
+		</fieldset>
+	</form>
+	<footer>
+		<p>©2018 | Luigi Meza Maldonado<br>
+			<a href="mailto:luigimezam@gmail.com"> luigimezam@gmail.com</a>.</br>
+			<a href="tel:+51 994 764 518"> +51 994 764 518</a>.</br>
+			<a href="https://www.linkedin.com/in/luigi-meza-maldonado-68849140/" target="_blank"> Linkedin: Luigi Meza Maldonado</a>.</br>
+		</p>
+	</footer>
+</body>
+</html>
